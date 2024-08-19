@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gallery with Filters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1 class="gallery-title">Image Gallery</h1>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="camera">Camera</button>
+            <button class="filter-btn" data-category="headphones">Headphones</button>
+            <button class="filter-btn" data-category="digitalwatch">Digital Watch</button>
+        </div>
+        <div class="gallery">
+            <!-- Camera Images -->
+            <div class="galleryitem" data-category="camera">
+                <img src="camera1.jpg" alt="Camera Image 1">
+            </div>
+            <div class="galleryitem" data-category="camera">
+                <img src="camera2.jpg" alt="Camera Image 2">
+            </div>
+            <div class="galleryitem" data-category="camera">
+                <img src="camera3.jpg" alt="Camera Image 3">
+            </div>
+            <div class="galleryitem" data-category="camera">
+                <img src="camera4.jpg" alt="Camera Image 3">
+            </div>
+
+            <!-- Headphones Images -->
+            <div class="galleryitem" data-category="headphones">
+                <img src="headphone1.jpg" alt="Headphones Image 1">
+            </div>
+            <div class="galleryitem" data-category="headphones">
+                <img src="headphone2.jpg" alt="Headphones Image 2">
+            </div>
+            <div class="galleryitem" data-category="headphones">
+                <img src="headphone3.jpg" alt="Headphones Image 3">
+            </div>
+
+            <!-- Digital Watch Images -->
+            <div class="galleryitem" data-category="digitalwatch">
+                <img src="digitalwatch1.jpg" alt="Digital Watch Image 1">
+            </div>
+            <div class="galleryitem" data-category="digitalwatch">
+                <img src="digitalwatch2.jpg" alt="Digital Watch Image 2">
+            </div>
+            <div class="galleryitem" data-category="digitalwatch">
+                <img src="digitalwatch3.jpg" alt="Digital Watch Image 3">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
